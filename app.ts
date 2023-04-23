@@ -1,10 +1,11 @@
-const person : {
-    name : string,
-    age : number,
-    role : [number, string]
-} = {
+
+enum Role {ADMIN, READ_ONLY, AUTHOR};
+const person = {
     name : 'wormsBrother',
     age : 30,
-    role : [1,'author']
+    role : Role.ADMIN
 };
-console.log(person.name);
+
+if(person.role === Role.ADMIN){
+    console.log('role is',Role.ADMIN);
+}
