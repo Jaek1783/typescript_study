@@ -9,3 +9,5 @@ const person = {
 if(person.role === Role.ADMIN){
     console.log('role is',Role.ADMIN);
 }
+
+console.log(person.name);
