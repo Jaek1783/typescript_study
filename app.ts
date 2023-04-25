@@ -1,13 +1,15 @@
 
-enum Role {ADMIN, READ_ONLY, AUTHOR};
-const person = {
-    name : 'wormsBrother',
-    age : 30,
-    role : Role.ADMIN
-};
+// enum Role {ADMIN, READ_ONLY, AUTHOR};
+// const person = {
+//     name : 'wormsBrother',
+//     age : 30,
+//     role : Role.ADMIN
+// };
 
-if(person.role === Role.ADMIN){
-    console.log('role is',Role.ADMIN);
-}
+// if(person.role === Role.ADMIN){
+//     console.log('role is',Role.ADMIN);
+// }
 
-console.log(person.age);
+// console.log(person.age);
+
+console.log('What is TypeScript?')
